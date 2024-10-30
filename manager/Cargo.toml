@@ -1,0 +1,10 @@
+[package]
+name = "manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+crossterm = "0.28.1"
+cryptlib = { version = "0.1.0", path = "../cryptlib" }
+rand = "0.8.5"
